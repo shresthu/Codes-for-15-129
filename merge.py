@@ -1,10 +1,10 @@
-s = raw_input()
-k = input()
+a = raw_input()
+m = input()
 
-for i in xrange(len(s) / k):
+for i in xrange(len(a) / m):
 	t = ''
-	for c in s[i * k : (i + 1) * k]:
-		if c in t:
+	for c in a[i * m : (i + 1) * m]:
+		if c in m:
 			continue
 		t += c
 	print t
